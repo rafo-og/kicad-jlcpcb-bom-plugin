@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "JLCPCB/BOM - Launch",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["file:///C:\\Users\\deros\\OneDrive - UNIVERSIDAD DE SEVILLA\\Projects\\Pixistamp\\Hardware\\PixiStamp.xml", "C:/Users/deros/OneDrive - UNIVERSIDAD DE SEVILLA/Projects/Pixistamp/Hardware/PixiStamp", "assembly/BOM-JLCPCB.csv"]
+        },
+        {
+            "name": "DK/BOM - Launch",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["file:///C:\\Users\\deros\\OneDrive - UNIVERSIDAD DE SEVILLA\\Projects\\Pixistamp\\Hardware\\PixiStamp.xml", "C:/Users/deros/OneDrive - UNIVERSIDAD DE SEVILLA/Projects/Pixistamp/Hardware/PixiStamp", "assembly/BOM-DK.csv"]
+        }
+    ]
+}
