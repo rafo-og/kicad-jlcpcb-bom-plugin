@@ -35,7 +35,8 @@ You can customize the script's output by adding the following fields to your com
 
 1. "LCSC PN#" - Add this field to include an LCSC Part number in the generated BOM. e.g.: C2286 for a red LED.
 2. "DK PN#" - Add this field to include an Digikey Part number in the generated BOM.
-3. "DK BOM" - Set this field to 0 (or "False") to omit the component from the generated BOM.
+3. "DK BOM" or "JLCPCB BOM" - Set this field to 0 (or "False") to omit the component from the generated BOM.
+4. "Populated" - Set this field to 0 (or "False") to omit the component from any generated BOM. It's useful when you have several assembly variants.
 
 Only the components which have the "LCSC PN#" or "DK PN#" not equal to empty string and their flags aren't set to false are added to the related BOM.
 
